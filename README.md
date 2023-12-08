@@ -1,4 +1,4 @@
-# languagetool
+# juanelas/languagetool
 
 A docker image to run a custom server with the latest stable [LanguageTool](https://languagetool.org/), a style and grammar proofreading software for English, French, German, and a lot of other languages. You can think of LanguageTool as a software to detect errors that a simple spell checker cannot detect, e.g. mixing up there/their, no/now etc. It can also detect some grammar mistakes.
 
