@@ -18,9 +18,9 @@ LanguageTool can make use of large n-gram data sets to detect errors with words 
 
 > n-grams is currently only available for Dutch, English, French, German, and Spanish (plus some data for untested languages).
 
-To add [n-grams](http://wiki.languagetool.org/finding-errors-using-n-gram-data) to your dockerised LanguageTool:
+To add [n-grams](https://dev.languagetool.org/finding-errors-using-n-gram-data) to your dockerised LanguageTool:
 
-1. Download the data for the languages you want (~8 GB each!) from http://languagetool.org/download/ngram-data/
+1. Download the data for the languages you want (~8 GB each!) from <https://languagetool.org/download/ngram-data/>
 2. Unzip it. Depending on the language downloaded you will have a directory named `de`, `en`, `es`, `fr`, or `nl`.
 3. Place the directories of ngrams for every language in a directory called `ngrams`.
 4. Assuming that `ngrams` is in your current directory, you can start LanguageTool with n-grams support as:
@@ -31,10 +31,10 @@ To add [n-grams](http://wiki.languagetool.org/finding-errors-using-n-gram-data) 
 
 ## word2vec
 
-Alternatively to n-gram you could use the experimental word2vec model by [Mikolov et al](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf), which should get similar results than the n-grams approach with just 70 MB per downloaded language.
+Alternatively to n-gram you could use the experimental word2vec model by [Mikolov et al](https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf), which should get similar results than the n-grams approach with just 70 MB per downloaded language.
 > word2vec is currently only available for English, German, and Portuguese.
 
-1. Download the data for the languages you want from https://languagetool.org/download/word2vec/
+1. Download the data for the languages you want from <https://languagetool.org/download/word2vec/>
 2. Unzip it. Depending on the language downloaded you will have a directory named `de`, `en`, or `pt`.
 3. Place the directories of word2vec for every language in a directory called `word2vec`.
 4. Assuming that `word2vec` is in your current directory, you can start LanguageTool with word2vec support as:

@@ -12,6 +12,7 @@ LABEL maintainer="Juan Hernández Serrano <j.hernandez@upc.edu>"
 COPY --from=0 /LanguageTool /LanguageTool
 COPY ./docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 WORKDIR /LanguageTool
+RUN touch /LanguageTool/empty_config.properties
 USER nobody
 EXPOSE 8081
 ENTRYPOINT [ "/usr/local/bin/docker-entrypoint.sh" ]
